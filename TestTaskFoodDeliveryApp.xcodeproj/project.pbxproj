@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103E8A2428F9C791000098B0 /* URLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E8A2328F9C791000098B0 /* URLFactory.swift */; };
 		1086B8A028F830C400BCF0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1086B89F28F830C400BCF0D0 /* AppDelegate.swift */; };
 		1086B8A228F830C400BCF0D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1086B8A128F830C400BCF0D0 /* SceneDelegate.swift */; };
 		1086B8A428F830C400BCF0D0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1086B8A328F830C400BCF0D0 /* MenuViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103E8A2328F9C791000098B0 /* URLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFactory.swift; sourceTree = "<group>"; };
 		1086B89C28F830C400BCF0D0 /* TestTaskFoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskFoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1086B89F28F830C400BCF0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1086B8A128F830C400BCF0D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,10 +88,10 @@
 		1086B89E28F830C400BCF0D0 /* TestTaskFoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				1086B8C128F85A6100BCF0D0 /* Builder */,
+				1086B8DB28F9B0D200BCF0D0 /* Helpers */,
 				103E8A2228F9C6F7000098B0 /* Modules */,
 				1086B8BE28F856A200BCF0D0 /* Model */,
-				1086B8DB28F9B0D200BCF0D0 /* Helpers */,
-				1086B8C128F85A6100BCF0D0 /* Builder */,
 				1086B8C028F856B800BCF0D0 /* App */,
 				1086B8B728F853CE00BCF0D0 /* ServiceLayer */,
 				1086B8A828F830C500BCF0D0 /* Assets.xcassets */,
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				1086B8B828F853DF00BCF0D0 /* NetworkService.swift */,
+				103E8A2328F9C791000098B0 /* URLFactory.swift */,
 			);
 			path = ServiceLayer;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				1086B8A428F830C400BCF0D0 /* MenuViewController.swift in Sources */,
 				1086B8CA28F86A2B00BCF0D0 /* MenuModel.swift in Sources */,
 				1086B8B628F8317700BCF0D0 /* TabBarItemModel.swift in Sources */,
+				103E8A2428F9C791000098B0 /* URLFactory.swift in Sources */,
 				1086B8D628F963DA00BCF0D0 /* CategoryCollectionViewCell.swift in Sources */,
 				1086B8DD28F9B0DC00BCF0D0 /* NavBarAppearance.swift in Sources */,
 				1086B8CF28F8784700BCF0D0 /* MenuTableViewCell.swift in Sources */,

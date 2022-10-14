@@ -38,7 +38,7 @@ final class MenuPresenter: MenuViewPresenterProtocol {
     }
     
     func getMenu() {
-        networkService.makeAPIRequest(with: "https://pizzaallapala.p.rapidapi.com/productos", MenuModel.self) { [weak self] result in
+        networkService.makeAPIRequest(with: URLFactory.getMenuPizzaRequest(), MenuModel.self) { [weak self] result in
             guard let self = self else { return }
             DispatchQueue.main.async {
                 switch result {

@@ -20,7 +20,7 @@ protocol MenuViewPresenterProtocol: AnyObject {
     var categoryArray: [String] {get set}
 }
 
-class MenuPresenter: MenuViewPresenterProtocol {
+final class MenuPresenter: MenuViewPresenterProtocol {
     var categoryArray: [String] = ["Пицца", "Комбо", "Десерты", "Напитки"]
     
     var bannerArray: [String] = ["banner1", "banner2", "banner3"]

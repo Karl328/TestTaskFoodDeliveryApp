@@ -59,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		103E8A2228F9C6F7000098B0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1086B8BA28F8566200BCF0D0 /* MenuScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		1086B89328F830C400BCF0D0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +86,11 @@
 		1086B89E28F830C400BCF0D0 /* TestTaskFoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				103E8A2228F9C6F7000098B0 /* Modules */,
+				1086B8BE28F856A200BCF0D0 /* Model */,
 				1086B8DB28F9B0D200BCF0D0 /* Helpers */,
 				1086B8C128F85A6100BCF0D0 /* Builder */,
 				1086B8C028F856B800BCF0D0 /* App */,
-				1086B8BA28F8566200BCF0D0 /* MenuScreen */,
 				1086B8B728F853CE00BCF0D0 /* ServiceLayer */,
 				1086B8A828F830C500BCF0D0 /* Assets.xcassets */,
 				1086B8AA28F830C500BCF0D0 /* LaunchScreen.storyboard */,
@@ -101,7 +110,6 @@
 		1086B8BA28F8566200BCF0D0 /* MenuScreen */ = {
 			isa = PBXGroup;
 			children = (
-				1086B8BE28F856A200BCF0D0 /* Model */,
 				1086B8BD28F8569500BCF0D0 /* View */,
 				1086B8BB28F8567F00BCF0D0 /* Presenter */,
 			);

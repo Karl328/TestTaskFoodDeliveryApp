@@ -314,11 +314,13 @@ extension MenuViewController: UIScrollViewDelegate {
             bannersCollectionView.contentOffset.y = menuTableView.contentOffset.y
             if menuTableView.contentOffset.y  > 30 {
                 UIView.animate(withDuration: 0.45, delay: 0) { [weak self] in
-                    self?.mainScrollView.contentOffset.y = 160
+                    guard let self = self else { return }
+                    self.mainScrollView.contentOffset.y = 160
                 }
             } else {
                 UIView.animate(withDuration: 0.45, delay: 0) { [weak self] in
-                    self?.mainScrollView.contentOffset.y = 0
+                    guard let self = self else { return }
+                    self.mainScrollView.contentOffset.y = 0
                     
                 }
                 

@@ -35,7 +35,7 @@ SnapKit- https://github.com/SnapKit/SnapKit?ysclid=l8lb1itkfr252905437 <br>
 # Дизайн приложения
 
 За пример использовался общедоступный макет из Figma <br>
-https://www.figma.com/file/KqZcU5m3GMxAHwgFkvCONz/ECOMMERCE?node-id=0%3A1
+https://www.figma.com/file/QAV7uRlO2cI3lYjNOVIwmo/Тестовое-IOS-(Copy)?node-id=0%3A1
 
 # Детали реализации
 
